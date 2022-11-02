@@ -1,6 +1,6 @@
 node {
     stage('Build') {
-        sh 'echo "Hello World"'
+        sh 'echo "esta construyendo"'
     }
     stage('Test') {
         sh 'echo "Hello World"'

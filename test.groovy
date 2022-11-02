@@ -3,7 +3,7 @@ node {
         sh 'echo "esta construyendo"'
     }
     stage('Test') {
-        sh 'echo "Hello World"'
+        sh 'echo "desde test"'
     }
 
     stage('Deploy') {
